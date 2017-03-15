@@ -106,12 +106,12 @@ $ curl -k -s -u root:icinga -H 'Accept: application/json' -X DELETE 'https://loc
 }
 
 # postgresql installation
-RHEL/CentOS 5/6:
-yum install postgresql-server postgresql
-chkconfig postgresql on
-service postgresql start
-RHEL/CentOS 7:
-yum install postgresql-server postgresql
-postgresql-setup initdb
-systemctl enable postgresql
-systemctl start postgresql
+RHEL/CentOS 5/6:<br>
+yum install postgresql-server postgresql<br>
+chkconfig postgresql on<br>
+service postgresql start<br>
+RHEL/CentOS 7:<br>
+yum install postgresql-server postgresql<br>
+postgresql-setup initdb<br>
+systemctl enable postgresql<br>
+systemctl start postgresql<br>
